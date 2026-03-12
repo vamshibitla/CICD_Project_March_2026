@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: mc-app
-        image: vamsi01/java-web-app:17
+        image: vamsi01/java-web-app:7
         ports:
         - containerPort: 8080
 
