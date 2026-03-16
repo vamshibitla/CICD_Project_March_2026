@@ -17,12 +17,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>NexusRepo</id>
-		    <url>http://3.141.35.176:8081/repository/maven-snapshots/</url>
+		    <url>http://3.142.255.20:8081/repository/maven-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>NexusRepo</id>
-		    <url>http://3.141.35.176:8081/repository/maven-repo-v2/</url>
+		    <url>http://3.142.255.20:8081/repository/maven-repo-v2/</url>
 		</repository>
   	</distributionManagement>
 
