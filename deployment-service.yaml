@@ -30,11 +30,11 @@ kind: Service
 metadata:
   name: mc-app-service
 spec:
-  type: LoadBalancer
+  type: NodePort
   ports:
   - name: http
     port: 80
     targetPort: 8080
-    protocol: TCP
+    nodePort: 30008
   selector:
     app: mc-app
